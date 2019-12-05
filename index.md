@@ -21,4 +21,5 @@
 
 ## S04
 
+- 4x07 ["407 Proxy Authentication Required"](407/)
 - 4x09 ["409 Conflict"](409/)

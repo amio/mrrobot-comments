@@ -1,8 +1,9 @@
 {
   "private": true,
   "scripts": {
-    "build:409": "eloc build 409.md -o public/409",
-    "build": "eloc build index.md && npm run build:409"
+    "407": "eloc build 407.md -o public/407",
+    "409": "eloc build 409.md -o public/409",
+    "build": "eloc build index.md && npm run 407 && npm run 409"
   },
   "devDependencies": {
     "eloc": "^1.1.18"
